@@ -7,6 +7,8 @@ import Home from './components/Home';
 import DelayedParagraph from './components/DelayedParagraph'
 import DisplayCharacterByCharacter from './components/DisplayCharacterByCharacter';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,7 +19,7 @@ function App() {
 
 <BrowserRouter>
       {/* <ToastContainer/> */}
-        <NavBar/>
+        <NavBar bootstrap/>
         {/* <DisplayCharacterByCharacter text="This sentence is displayed character by character." delay={100} /> */}
           <Routes>
           
