@@ -1,13 +1,16 @@
 import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
+
 import './App.css'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import NavBar from './components/NavBar';
 import Home from './components/Home';
+import HomeProjects from './components/HomeProjects';
 import DelayedParagraph from './components/DelayedParagraph'
 import DisplayCharacterByCharacter from './components/DisplayCharacterByCharacter';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "@fontsource/rajdhani";
 
 
 function App() {
@@ -16,17 +19,21 @@ function App() {
 
   return (
     <div className="App">
-
+    <NavBar/>
 <BrowserRouter>
       {/* <ToastContainer/> */}
-        <NavBar bootstrap/>
+       
         {/* <DisplayCharacterByCharacter text="This sentence is displayed character by character." delay={100} /> */}
           <Routes>
           
-          <Route path = "/" exact element={<Home/>}/>
+          <Route path = "/" exact element={ <>
+            <Home/> ,
+            <HomeProjects/>
+            
+            </> }/>
 
           <Route path = "/Welcome" exact element={<DelayedParagraph delay={1000} delay2={2000}/>}/>
-          <Route path = "/WelcomeNew" exact element={<DisplayCharacterByCharacter text="Hello World" delay={100}  />}/>
+          <Route path = "/WelcomeNew" exact element={<DisplayCharacterByCharacter text="Heello World" delay={100}  />}/>
           
           {/* <Route path = "/cart" element={<NewCart/>}/>
           <Route path = "/checkout-success" element={<CheckoutSuccess/>}/>

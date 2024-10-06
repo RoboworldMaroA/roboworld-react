@@ -1,0 +1,19 @@
+#home{
+    font-family: "Rajdhani";
+    color: azure;
+    text-align: center;
+    padding-top: 20%;
+}
+
+#home h1{
+    padding-bottom: 10%;
+}
+
+#home p{
+        font-size: 1.2em;
+        color: #ffffff;
+}
+
+.paragraphAlignedToLeft{
+    text-align: justify;
+}

@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 
 
 const DisplayCharacterByCharacter = ({ text, delay }) => {
-  const [displayedText, setDisplayedText] = useState("");
+  const [displayedText, setDisplayedText] = useState(" ");
 
   useEffect(() => {
     let currentIndex = 0;

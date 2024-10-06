@@ -1,0 +1,89 @@
+
+
+/* 
+#bg-body-tertiary{
+    background-color: #060606;
+
+} */
+
+#containerNavBar{
+
+    background-color: #060606;
+    color: azure;
+}
+
+
+#navLinks{
+
+    
+    color: rgb(208, 220, 220);
+}
+
+#navbarScrollingDropdown{
+
+    
+    color: azure;
+}
+
+#nav{
+    padding-top: 2%;
+    background-color: #060606;
+    font-family: "Rajdhani";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+
+}
+
+#navBarBrand{
+    color: rgb(192, 213, 213);
+    font-size: 1.8rem;
+    
+
+}
+
+
+/* .custom-toggler.navbar-toggler {
+    border-color: #a2b4c4;
+    color: #b8cdd8;
+  } */
+  
+  /* .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(120, 131, 131, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+  } */
+
+
+  .navbar .navbar-toggler[aria-expanded="true"] {
+    color: #9933CC!important;
+    }
+
+
+  .nav-item :active {
+    color: #b5aeae;
+  }
+  
+  .nav-link {
+    color: #d4d4de;
+  }
+
+
+  .btn{
+    color: #9fa4a9;
+  }
+
+  /* #navbarScroll{
+    color: #a2b4c4;
+    border: #a2b4c4;
+  } */
+
+  /* .navbar .navbar-toggler.nav-item{
+    color: #918a8a;
+    border: 1px;
+  }    */
+
+  span.navbar .navbar-toggler:hover {
+    color: #2f2d2d;
+    
+  }   
+
