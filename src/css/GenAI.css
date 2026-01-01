@@ -1,0 +1,57 @@
+#genAI{
+    font-family: "Rajdhani";
+    color: azure;
+    text-align: center;
+    padding-top: 20%;
+}
+
+#genAI h1{
+    padding-bottom: 1%;
+}
+
+#displayFineTuneGeminiAI{
+    font-size: 1.8em;
+    padding-top: 1%;
+}
+
+#genAI p{
+        font-size: 1.2em;
+        color: #ffffff;
+}
+
+.paragraphAlignedToLeft{
+    text-align: justify;
+}
+
+#codeSnippet{
+    font-size: 1.1em;
+
+}
+
+h1 .card-header{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+.card-body{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+pre{
+
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+#output{
+    text-align: justify;
+}

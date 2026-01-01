@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 //Deploy version to C-Panel whshost.com
 export default defineConfig({
   base: 'https://roboworld.react.marekaugustyn.whshost.com/',
+  // base: 'https://robots.marekaugustyn.whshost.com/',
   plugins: [react()],
   resolve: {
     alias: [{find: '@', replacement: 'src'}],

@@ -3,9 +3,14 @@ import React, { useState, useEffect } from 'react';
 //To component are passed variable text - It is displayed text
 //And delay accept integers that are milliseconds  
 
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import '../css/ComputerVision.css';
 
 const DisplayCharacterByCharacter = ({ text, delay }) => {
-  const [displayedText, setDisplayedText] = useState(" ");
+  const [displayedText, setDisplayedText] = useState("");
 
   useEffect(() => {
     let currentIndex = 0;
@@ -15,7 +20,7 @@ const DisplayCharacterByCharacter = ({ text, delay }) => {
 
       if (currentIndex < text.length-1) {
         setDisplayedText((prev) => prev + text[currentIndex]);
-        currentIndex++;
+        ++currentIndex;
         
       } else {
         clearInterval(timer);
@@ -26,9 +31,15 @@ const DisplayCharacterByCharacter = ({ text, delay }) => {
   }, [text, delay]);
 
   return (
-    <div>
-      <p>{displayedText}</p>
-    </div>
+    <Container>
+    <Row>
+      <Col id="displayCharacterByCharacter">
+    
+      {displayedText}
+    
+    </Col>
+    </Row>
+    </Container>
   );
 };
 export default DisplayCharacterByCharacter;

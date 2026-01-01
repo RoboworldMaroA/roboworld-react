@@ -1,0 +1,20 @@
+#generativeAIExampleHeader {
+  background-color: #000000!important;
+  color: #ffffff;
+  padding: 1%;
+  border-radius: 5px;
+  font-size: 0.9em;
+  align-items: center;
+
+}
+pre{
+    text-align: left;
+    font-size: 0.9em !important;
+}
+
+
+@media (max-width: 468px) {
+#preTag {
+    font-size: 0.6em;
+} 
+}

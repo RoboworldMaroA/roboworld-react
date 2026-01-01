@@ -1,0 +1,33 @@
+
+
+/* 
+#bg-body-tertiary{
+    background-color: #060606;
+
+} */
+
+.footerRow{
+    font-family: "Rajdhani";
+    background-color: #060606;
+    color: azure;
+    
+    text-align: center;
+    padding-top: 5%;
+}
+
+.footerRow p{
+    padding-top: 1%;
+    color: aliceblue;
+    font-size: 1.0em;
+    
+}
+
+#linkedInFooter {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.footerRow a{
+    color: azure;
+    text-decoration: none;
+}

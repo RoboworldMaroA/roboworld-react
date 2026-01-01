@@ -1,0 +1,55 @@
+#ragLLM {
+    text-align: center;
+    font-family: "Rajdhani";
+    color: azure;
+
+}
+
+#ragLLM p{
+    padding-top: 1%;
+    color: aliceblue;
+    font-size: 1.2em;
+}
+
+#ragLLM h1{
+    padding-top: 20%;
+    color: aliceblue;
+    font-size: 1.7em;
+}
+
+#ragLLM h2{
+    padding-top: 1%;
+    color: aliceblue;
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+.paragraphTabbedToRight{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+.paragraphTabbedMoreToTheRight{
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: justify;
+}
+
+.paragraphTabbedToRightBold{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.2em;
+    font-family: "Rajdhani";
+    color: azure;
+    background-color: #000;
+    border: none !important;
+}
+

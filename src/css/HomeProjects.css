@@ -2,11 +2,11 @@
     font-family: "Rajdhani";
     color: azure;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 5%;
 }
 
 #homeProjects h1{
-    padding-bottom: 10%;
+    padding-bottom: 2%;
 }
 
 #homeProjects p{
@@ -15,3 +15,91 @@
         text-align: center;
 }
 
+
+/* flipping cars */
+
+/* .flip-card {
+  width: 100%;
+  height: 180px;
+  cursor: pointer;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  transform-style: preserve-3d;
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+}
+.flip-card-back {
+  transform: rotateY(180deg);
+} */
+
+
+
+.flip-card {
+  width: 100%;
+  height: 360px;
+  cursor: pointer;
+  background-color: #000;
+  border: none !important;;
+  /* border-width: 0rem!important; */
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4,0.2,0.2,1);
+  border: none !important;;
+  /* border-width: 0rem!important; */
+
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 360px;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000; /* Default background color */
+  border:none !important;
+}
+.flip-card-back {
+  transform: rotateY(180deg);
+  flex-direction: column;
+}
+
+/* .flip-card-front img,
+.flip-card-back img {
+  background: #000 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+} */
+
+.mt-4 {
+  background: #000 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.flip-card-back img {
+  cursor: pointer;
+}

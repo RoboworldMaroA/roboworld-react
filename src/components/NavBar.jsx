@@ -13,7 +13,7 @@ const  NavBar= () => {
   return ( 
  
  <nav id="nav-bar" >
- <Navbar id="nav"expand="lg"  >
+ <Navbar id="nav"expand="lg" variant="dark" >
       <Container className="justify-content-md-center" id="containerNavBar">
         <Navbar.Brand id="navBarBrand"href="/"><b>ROBO-WORLD</b></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
@@ -27,14 +27,26 @@ const  NavBar= () => {
             <Nav.Link id="navLinks" href="/">Home</Nav.Link>
             {/* <Nav.Link href="#action2">Link</Nav.Link> */}
             <NavDropdown title="Projects" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/Welcome">Automations</NavDropdown.Item>
-              <NavDropdown.Item href="/WelcomeNew">Mobile Robots</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/Welcome">Automations</NavDropdown.Item> */}
+              <NavDropdown.Item href="https://roboworld.pl/automations.html">Automations</NavDropdown.Item>
+              <NavDropdown.Item href="https://roboworld.pl/mobile_robots.html">Mobile Robots</NavDropdown.Item>
+              <NavDropdown.Item href="https://manage-customers-4x6n9.ondigitalocean.app/objectDetection.html">Computer Vision</NavDropdown.Item>
+              <NavDropdown.Item href="/StableDiffusionChapter">Stable Diffusion</NavDropdown.Item>
+              <NavDropdown.Item href="/ComputerVision">CV </NavDropdown.Item>
+              <NavDropdown.Item href="/chat">AI Assistant </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Software Development
+              
+              <NavDropdown.Item href="/FineTuneGemma">
+                Fine Tune Large Language Models locally
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/GenAI">
+                Generative AI - Fine Tune Gemini AI
+              </NavDropdown.Item>
+               <NavDropdown.Item href="/RAG_LLM">
+                RAG locally (Mistral-7B, M1 MacBook) 
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#">
+            <Nav.Link href="https://roboworld.pl/about_me.html">
               About me
             </Nav.Link>
           </Nav>

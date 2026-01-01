@@ -1,1 +1,19 @@
 I think ok to use Vite as a roboworld.pl
+Deployed on webhosting solution
+
+Development:
+npm run dev
+
+
+Deploy:
+
+I created new domain on my server whshost and created new react application using Vite.
+I keep copy on the Git Hub – repository roboworld-react
+Deploy:
+https://vitejs.dev/guide/static-deploy
+
+Open Visual Studio Code and use command: 
+npm run build
+
+(utworzy albo doda nowe pliki do katalogu dist (na samej górze) przenieś pliki na „limescale”
+ (whshost) serwer i wrzuć do katalogu roboworld.react  )

@@ -19,6 +19,12 @@
     color: rgb(208, 220, 220);
 }
 
+a .nav-link{
+
+    
+    color: rgb(208, 220, 220)!important;
+}
+
 #navbarScrollingDropdown{
 
     
@@ -55,9 +61,13 @@
 
 
   .navbar .navbar-toggler[aria-expanded="true"] {
-    color: #9933CC!important;
+    color: #e3dae7!important;
     }
 
+
+  button .navbar-toggler.collapsed {
+    color: #d6dfe3!important;
+  }
 
   .nav-item :active {
     color: #b5aeae;
@@ -82,8 +92,8 @@
     border: 1px;
   }    */
 
-  span.navbar .navbar-toggler:hover {
-    color: #2f2d2d;
-    
-  }   
 
+
+  #responsive-navbar-nav{
+    color: #d4d4de;
+  }

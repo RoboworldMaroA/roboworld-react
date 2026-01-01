@@ -1,0 +1,68 @@
+#stableDiffusion{
+    text-align: center;
+    font-family: "Rajdhani";
+    color: azure;
+
+}
+
+#stableDiffusion p{
+    padding-top: 1%;
+    color: aliceblue;
+    font-size: 1.2em;
+}
+
+#stableDiffusion h1{
+    padding-top: 20%;
+    color: aliceblue;
+    font-size: 1.7em;
+}
+
+#stableDiffusion h2{
+    padding-top: 2%;
+    color: aliceblue;
+    font-size: 1.6em;
+}
+
+
+.paragraphAlignedToLeft{
+    text-align: justify;
+     color: aliceblue;
+}
+
+.card-body{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+#codeText2Image {
+  background-color: #000000!important;
+  color: #ffffff;
+  padding: 1%;
+  border-radius: 5px;
+  font-size: 0.9em;
+  align-items: center;
+
+}
+
+
+
+
+pre{
+    text-align: left;
+    font-size: 0.8em !important;
+}
+
+
+@media (max-width: 585px) {
+#preTag {
+    font-size: 0.6em;
+} 
+}
+
+
+code{
+    color: #b85f06!important;
+}
