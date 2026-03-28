@@ -13,7 +13,9 @@ If you wanna see this app on the other devices in local network then :
 npm run dev -- --host
 
 Access on this address:
+not working
 http://192.168.1.10:5173/
+
 
 #########################################################################################################
 Deployment:

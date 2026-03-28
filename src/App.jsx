@@ -19,6 +19,7 @@ import "@fontsource/rajdhani";
 import Footer from './components/Footer';
 import FineTuneGemma from './components/FineTuneGemma';
 import ChatbotIframe from './components/ChatbotIframe';
+import YoloJetsonView from './components/YoloJetsonView';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -78,6 +79,7 @@ function App() {
 
           <Route path = "/FineTuneGemma" exact element={<><FineTuneGemma/></>}/>
           <Route path = "/Chat" exact element={<><ChatbotIframe/></>}/>
+          <Route path = "/YoloJetson" exact element={<><YoloJetsonView/></>}/>
           </Routes>
 
       </BrowserRouter>
